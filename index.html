@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Elizzy Hotel | Elizabeth International</title>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="texttitle">
+            <a href="index.html">
+                <img width="130px" src="img/elizabeth-logo-200x70-2021.png" alt="">
+            </a>
+        </div>
+        <!--  -->
+        <div class="logo">
+            <i class="fa-solid fa-bars menu" id="openmenus"></i>
+        </div>
+
+        <div class="sidebar">
+            <div class="logo">
+                <i class="fa-solid fa-xmark menu close"></i>
+            </div>
+            <ul class="active">
+                <li><a id="on" href="index.html">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#reward">Reward</a></li>
+                <li><a href="roomtype.html">Room Type</a></li>
+                <li class="btn-programs1"><a>Campus Programs ></a></li>
+                <li class="btn-programs2"><a>Campus Programs ^</a></li>
+
+                <div class="menu-program">
+                    <ul>
+                        <li><a href="one-year-programs.html">One Year Program</a></li>
+                        <li><a href="two-year-programs.html">Two Year Program</a></li>
+                        <li><a href="sarjana-plus.html">Sarjana Plus</a></li>
+                    </ul>
+                </div>
+                <li><a href="#testimoni">Testimoni</a></li>
+                <li>
+                    <button onclick="location.href='facilities.html'" class="program-mobile">Facilities</button>
+                </li>
+            </ul>
+
+        </div>
+        <!--  -->
+
+        <ul>
+            <li><a id="on" href="index.html">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#reward">Reward</a></li>
+            <li><a href="roomtype.html">Room Type</a></li>
+            <li class="programs"><a>Campus Programs <i class="fa-solid fa-arrow-down"></i></a></li>
+            <li class="programs-act"><a>Campus Programs <i class="fa-solid fa-arrow-down"></i></a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+            <li>
+                <button onclick="location.href='facilities.html'">Facilities</button>
+            </li>
+        </ul>
+
+        <div class="programs-menu">
+            <ul>
+                <li><a href="one-year-programs.html">One Year Program</a></li>
+                <li><a href="two-year-programs.html">Two Year Program</a></li>
+                <li><a href="sarjana-plus.html">Sarjana Plus</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="tutupfungsi"></div>
+
+
+    <div class="bgmask" id="homes">
+        <!-- <div class="centered-item">
+            1
+        </div> -->
+        <div class="leftbtn"><i class="fa-solid fa-arrow-left"></i></div>
+        <div class="rightbtn"><i class="fa-solid fa-arrow-right"></i></div>
+        <div class="carousel" data-aos="fade-up" data-aos-duration="3000">
+            <span id="1" class="one">Selamat Datang</span>
+            <h1 id="2" class="two">ELIZABETH</h1>
+            <p id="3">Where You, Health, Lifestyle Begin            </p>
+            <p id="four">Have A Great Stay In Our Hotels            </p>
+            <button onclick="location.href='roomtype.html'">SEE ROOM TYPE</button>
+        </div>
+        <div class="carousel" data-aos="fade-up" data-aos-duration="3000">
+            <span id="1" class="one  second-text">Be Hospitality Preneur</span>
+            <h1 id="2" class="two">ELIZABETH</h1>
+            <p id="3">Have A Great Stay            </p>
+            <p id="four">International Brand Campus</p>
+            <button onclick="location.href='facilities.html'">LIHAT FASILITAS</button>
+        </div>
+        <div class="carousel" data-aos="fade-up" data-aos-duration="3000">
+            <span id="1" class="one  second-text">Be The Next Young</span>
+            <h1 id="2" class="two">ELIZABETH</h1>
+            <p id="3">International</p>
+            <p id="four">Never Just Learn, Learn Inspired</p>
+            <button onclick="location.href='#about'">TENTANG KAMI</button>
+        </div>
+    </div>
+    <div class="home">
+        <a href="#aboutpage">
+            <div class="mousescroll">
+                <span>.</span>
+            </div>
+        </a>
+
+    </div>
+    <a href="https://api.whatsapp.com/send/?phone=6281138111107&text=Nama+saya%3A%0D%0AAlamat%3A+%0D%0AEmail%3A%0D%0A%0D%0ABisa+kirimkan+saya+informasi+terkait+program+di+Elizabeth+International%3F&type=phone_number&app_absent=0"
+        target="_blank">
+        <div class="whatsapp-icon">
+            <img width="50px" src="img/whatsapp-icon.png" alt="">
+        </div>
+    </a>
+    <div class="menu-bar-items">
+        <div class="item-new room-box">
+            <i style="color: #fff;" class="fa-solid fa-bed fa-2xl"></i>
+            <p>Room Type</p>
+            <span>Superior - River Suite - Rooftop Bungalow - Presidential Suite - Junior Suite - Honeymoon Villa - Family Suite - Ezzy Suite - Executive - Deluxe Valley - Deluxe Resort</span>
+            <button class="see-more" onclick="location.href='roomtype.html'">See Room Type</button>
+        </div>
+        <div class="item-new facility">
+            <i style="color: #fff;" class="fa-regular fa-square-caret-down fa-2xl"></i>
+            <p>Other Facilities</p>
+            <ul>
+
+                <li>Ezzy Restaurant</li>
+                <li>Ezzy Meeting Room</li>
+                <li>Ezzy Cafe & Bar</li>
+                <li>Ezzy Fitness Center</li>
+                <li>Ezzy Kid’s Club</li>
+                <li>Ezzy Boutique
+                </li>
+            </ul>
+            <button class="see-more" onclick="location.href='facilities.html'">See More Facilities</button>
+        </div>
+        <div class="item-new strategist">
+            <i style="color: #fff;" class="fa-solid fa-map fa-2xl"></i>
+            <p>Strategist</p>
+            <span>Overviewing the stunning Jimbaran Bay, 15 minutes from Ngurah Rai International air port 10 minutes to Uluwatu Temple, Dreamland Beach, Pandawa Beach, Jimbaran Fish restaurant, New Kuta Water park, New Kuta Golf course, and 2 minutes to Garuda Wisnu Kencana.
+            </span>
+            <a style="text-decoration: none;" class="see-more" href="https://maps.app.goo.gl/iDnysU9wE5SFGACD8" target="_blank">See Map Location</a>
+        </div>
+    </div>
+    <div class="about-us" id="about">
+
+        <div class="titleAbout">
+            <h1>About Us</h1>
+            <span>ELIZABETH INTERNATIONAL HOTEL</span>
+        </div>
+        <div class="arrowAbout">
+            <i class="fa-solid fa-arrow-down fa-bounce fa-2xl"></i>
+        </div>
+
+        <div class="aboutContent">
+
+            <div class="aboutContent-left">
+                <p class="aboutTitle">EZZY HOTEL</p>
+                <p class="aboutDesc">Elizabeth International lahir dari sebuah komitmen yang kokoh untuk menyediakan
+                    institusi pendidikan dan pelatihan di sektor perhotelan dengan standar internasional yang tinggi,
+                    serta menghasilkan lulusan yang siap bersaing di panggung global industri ini. Berdiri pertama kali
+                    pada tahun 2009 di Bali, Elizabeth International telah berkembang menjadi sebuah kampus yang sangat
+                    dihormati dan berkarakter.</p>
+                <button class="about-btn">Lihat Program Kampus <i class="fa-solid fa-arrow-right"></i></button>
+                <div class="normal-menu-programs">
+                    <ul>
+                        <li style="color: crimson;" class="close-btn">X</li>
+                        <li><a href="one-year-programs.html">One Year Program</a></li>
+                        <li style="border-top:1px solid #ca8e46;"><a href="two-year-programs.html">Two Year Program</a>
+                        </li>
+                        <li style="border-top:1px solid #ca8e46;"><a href="sarjana-plus.html">Sarjana Plus</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="aboutContent-right">
+                <div class="slider">
+                    <button class="prev" onclick="prevSlide()">&#10094;</button>
+                    <img id="sliderImage" src="./img/22.jpg" alt="Sliding Image">
+                    <img id="sliderImage" src="./img/18.jpg" alt="Sliding Image">
+                    <img id="sliderImage" src="./img/9.jpg" alt="Sliding Image">
+                    <img id="sliderImage" src="./img/10.jpg" alt="Sliding Image">
+                    <img id="sliderImage" src="./img/21.jpg" alt="Sliding Image">
+                    <img id="sliderImage" src="./img/28.jpg" alt="Sliding Image">
+                    <button class="next" onclick="nextSlide()">&#10095;</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="award-achievement" id="reward">
+        <div class="titleAbout">
+            <h1>Award & Achievement</h1>
+            <span class="desc-title-item">Our Awards and Achievement</span>
+        </div>
+        <div class="wrapper-caros">
+            <div class="owl-carousel" id="carousel">
+                <div class="owl-items">
+                    <img src="img/reward-img/1.png" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/reward-img/2.png" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/reward-img/3.png" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/reward-img/4.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/reward-img/5.png" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/reward-img/6.png" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/reward-img/7.png" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/reward-img/8.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/reward-img/9.png" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/reward-img/10.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="titletext second">
+            <!-- <h1>Ha</h1> -->
+            <span class="desc-title-item2">Our Global Partners</span>
+        </div>
+        <div class="wrapper-caros">
+            <div class="owl-carousel" id="carousel2">
+                <div class="owl-items">
+                    <img src="img/global-partners/1.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/global-partners/2.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/global-partners/3.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/global-partners/4.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/global-partners/4.png" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/global-partners/5.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/global-partners/6.png" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/global-partners/7.png" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/global-partners/8.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/global-partners/9.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/global-partners/10.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/global-partners/11.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/global-partners/12.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/global-partners/13.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="titletext second">
+            <!-- <h1>Ha</h1> -->
+            <span class="desc-title-item2">Our Hotel Partners</span>
+        </div>
+        <div class="wrapper-caros">
+            <div class="owl-carousel" id="carousel3">
+                <div class="owl-items">
+                    <img src="img/hotel-partners/1.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/2.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/3.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/4.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/5.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/6.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/7.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/8.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/9.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/10.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/11.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/12.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/13.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/14.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/15.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/16.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/17.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/18.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/19.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/20.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/21.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/22.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/23.jpg" alt="">
+                </div>
+
+                <div class="owl-items">
+                    <img src="img/hotel-partners/24.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/25.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/26.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/27.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/28.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/29.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/30.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/31.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/32.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/33.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/34.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/35.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/36.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/37.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/38.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/39.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/40.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/41.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/42.jpg" alt="">
+                </div>
+                <div class="owl-items">
+                    <img src="img/hotel-partners/43.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimonials" id="testimoni">
+        <div class="left-testimonials">
+            <p class="title-testi">Testimonials</p>
+            <p class="desc-testi">Apa kata praktisi, pelaku usaha, bisnis dan pariwisata katakan tentang kampus
+                perhotelan dan bisnis Elizabeth International</p>
+        </div>
+        <div class="right-carousel">
+            <div class="owl-carousel" id="carousel4">
+                <div class="owl-items caros4">
+                    <div class="wrapper-testi">
+                        <p class="text-dc">Pengalaman yang luar biasa saya dapatkan ketika kuliah menjadikan saya begitu
+                            mudahnya
+                            memasuki dunia Industri. Bahkan saya langsung ditawarkan bekerja sebagai staff di 101 Resort
+                            Bali dimana ini merupakan tempat saya menjalankan on the job training sewaktu saya kuliah.
+                            Tidak sampai disana, Ilmu yang saya pelajari di Elizabeth International juga mengantarkan
+                            saya menjadi The Best Reception of The Year 2019 menyisihkan semua peserta dari seluruh
+                            Indonesia dalam ajang Indonesia Reception Competition yang diadakan oleh Indonesia Hotel
+                            frontliner Association.</p>
+                        <p class="text-master">Dayu Dinda – Alumni Elizabeth International</p>
+                        <div class="wrapper-images">
+                            <img src="img/testimonials/1.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-items caros4">
+                    <div class="wrapper-testi">
+                        <p class="text-dc">Elizabeth International dikenal dengan keseriusannya dalam setiap
+                            aktivitasnya, kreativitas dan inovasi menjadi satu kesatuan yang memperkuat brand yang
+                            dimilikinya. Dengan bergabungnya Elizabeth International menjadi Global Academic Partner
+                            dari American Hotel and Lodging Educational Institute – USA, saya yakin Elizabeth
+                            International akan semakin mengokohkan dirinya sebagai salah satu kampus vokasi terbaik di
+                            Indonesia.</p>
+                        <p class="text-master">Wiwin Suyasa, CHT, CHA, CHE. PT. Vision Planner Indonesia (AHLEI Partner)
+                        </p>
+                        <div class="wrapper-images">
+                            <img src="img/testimonials/2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-items caros4">
+                    <div class="wrapper-testi">
+                        <p class="text-dc">Elizabeth International adalah kampus perhotelan terbaik yang pernah saya
+                            jumpai di Indonesia. Selama lebih dari tiga tahun menjalin kerjasama dengan Teachcast with
+                            Oxford – USA Elizabeth International saya melihat bahwa komitmen untuk mencetak lulusan
+                            terbaik dan berkualitas memang tidak main – main. Tetap berkarya dengan hebat dan tetap
+                            menjadi yang terbaik.</p>
+                        <p class="text-master">Kent Robert Holiday CEO TeachCast with Oxford – USA
+                        </p>
+                        <div class="wrapper-images">
+                            <img src="img/testimonials/3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-items caros4">
+                    <div class="wrapper-testi">
+                        <p class="text-dc">e-Campus Elizabeth Internasional merupakan terobosan di era revolusi 4.0.
+                            Saya mengenal Elizabeth International sudah cukup lama dan melihat setiap movement yang
+                            dilakukan Elizabeth international sarat dengan kreativitas dan inovasi.Dan saya menyambut
+                            baik kerjasama yang terjalin antara Elizabeth International dengan Markplus dan ini
+                            merupakan langkah nyata dalam kolaborasi untuk menghasilkan kualitas lulusan yang
+                            terbaik.Selamat untuk Elizabeth International dan tetap sukses dalam setiap langkah kedepan.
+                        </p>
+                        <p class="text-master">Dr. (HC) Hermawan Kartajaya Chairman Markplus Inc.
+                        </p>
+                        <div class="wrapper-images">
+                            <img src="img/testimonials/4.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-items caros4">
+                    <div class="wrapper-testi">
+                        <p class="text-dc">e-Campus Elizabeth International merupakan inovasi bagi lembaga vokasi nyang
+                            tentunya akan sangat bermanfaat bagi masyarakat Bali khususnya dan Indonesia pada umumnya.
+                            Saya Wakil gubernur Bali menyambut baik hadirnya e-Campus Elizabeth international dan
+                            berharap Elizabeth international tetap bisa maju dan terus berkarya meningkatkan pengetahuan
+                            dan keterampilan vokasi masyarakat.
+                        </p>
+                        <p class="text-master">Prof. Dr. Tjokorde Raka Ardana Sukawati – Wakil Gubernur Bali.
+                        </p>
+                        <div class="wrapper-images">
+                            <img src="img/testimonials/5.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-items caros4">
+                    <div class="wrapper-testi">
+                        <p class="text-dc">Tidak lama setelah saya mulai berkarir saya segera di promosikan sebagai
+                            seorang duty manager di Rumah Luwih Resort Bali. Saya sangat bersemangat dalam bekerja dan
+                            merasa sangat percaya diri ketika diberikan tanggung jawab pekerjaan.Terima kasih elizabeth
+                            International karena telah menjadikan saya menjadi pribadi yang kuat dan siap dengan
+                            tantangan karir.
+                        </p>
+                        <p class="text-master">Mira – Alumni Elizabeth International
+                        </p>
+                        <div class="wrapper-images">
+                            <img src="img/testimonials/6.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pembatas"></div>
+
+    <footer>
+        <div class="text-title">
+            <h1>ALAMAT HOTEL & KAMPUS</h1>
+            <p>ELIZABETH INTERNATIONAL</p>
+        </div>
+        <div class="flex-containers">
+            <div class="item i1">
+                <span class="text-1">Alamat Utama (EZZY Hotel) : </span>
+                <span class="b-text t-1">EZZY Smart Resort Hotel</span>
+                <span class="b-text t-2">KAMPUS ELIZABETH INTERNATIONAL
+                    DENPASAR</span>
+                <a target="_blank" href="https://maps.app.goo.gl/7T9CaHfwpRYQ4qLX9" class="text-street"><i
+                        class="fa-solid fa-map-pin" style="color: #ca8e46;"></i> Jl. Hayam Wuruk No.199, Denpasar, Bali
+                    - Indonesia</a>
+                <a href="tel:03614748590" class="text-phone"><i class="fa-solid fa-phone" style="color: #ca8e46;"></i>
+                    Telp. (0361) 474 8590</a>
+            </div>
+            <div class="item i2">
+                <span class="text-1">Alamat 2 : </span>
+                <span class="b-text t-1">EZZY City</span>
+                <span class="b-text t-2">KAMPUS ELIZABETH INTERNATIONAL
+                    DENPASAR</span>
+                <a target="_blank" href="https://maps.app.goo.gl/BQ79Zyx5avmTnLU87" class="text-street"><i
+                        class="fa-solid fa-map-pin" style="color: #ca8e46;"></i> Jl. Hayam Wuruk, No. 226B, Denpasar,
+                    Bali - Indonesia</a>
+                <a href="tel:0361230110" class="text-phone"><i class="fa-solid fa-phone" style="color: #ca8e46;"></i>
+                    Telp. (0361) 230 110</a>
+            </div>
+            <div class="item i2">
+                <span class="text-1">Alamat 3 : </span>
+                <span class="b-text t-1">EZZY Autograph</span>
+                <span class="b-text t-2">KAMPUS ELIZABETH INTERNATIONAL
+                    NUSA DUA</span>
+                <a target="_blank" href="https://maps.app.goo.gl/GRq8aE9ebapa6Qin7" class="text-street"><i
+                        class="fa-solid fa-map-pin" style="color: #ca8e46;"></i> Jl. By Pass I Gusti Ngurah Rai, No.27e,
+                    Nusa Dua, Bali - Indonesia</a>
+                <a href="tel:03614772318" class="text-phone"><i class="fa-solid fa-phone" style="color: #ca8e46;"></i>
+                    Telp. (0361) 4772318</a>
+            </div>
+            <div class="item i2">
+                <span class="text-1">Alamat 4 : </span>
+                <span class="b-text t-1">EZZY Heritage</span>
+                <span class="b-text t-2">KAMPUS ELIZABETH INTERNATIONAL GIANYAR</span>
+                <a target="_blank" href="https://maps.app.goo.gl/EqM4HDSAqWsoyYc59" class="text-street"><i
+                        class="fa-solid fa-map-pin" style="color: #ca8e46;"></i> Jl. Kebo Iwa, No. 12B, Gianyar, Bali -
+                    Indonesia</a>
+                <a href="tel:0361945887" class="text-phone"><i class="fa-solid fa-phone" style="color: #ca8e46;"></i>
+                    Telp. (0361) 945 887</a>
+                
+            </div>
+        </div>
+        <div class="second-footer">
+            <p>Copyright 2024 Ezzy Hotel | Elizabeth International</p>
+        </div>
+    </footer>
+
+    <div class="upbutton" onclick="location.href='#homes'">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+    <script>
+        AOS.init();
+        // console.log(window.innerWidth);
+
+        var programs = document.querySelector('.programs');
+        var programmenu = document.querySelector('.programs-menu');
+        var programsAct = document.querySelector('.programs-act');
+
+        programs.addEventListener('click', () => {
+            programs.style.display = 'none';
+            programsAct.style.display = 'block';
+            programmenu.classList.add('show-menu');
+        });
+
+        programsAct.addEventListener('click', () => {
+            programsAct.style.display = 'none';
+            programs.style.display = 'block';
+            programmenu.classList.remove('show-menu');
+        });
+
+        var aboutBtn = document.querySelector('.about-btn');
+        var menuAbout = document.querySelector('.normal-menu-programs');
+        var closebtn = document.querySelector('.close-btn');
+
+        aboutBtn.addEventListener('click', () => {
+            menuAbout.style.display = 'block';
+        });
+
+        closebtn.addEventListener('click', () => {
+            menuAbout.style.display = 'none';
+        });
+
+        var btnProgram = document.querySelector('.btn-programs1');
+        var pmenu = document.querySelector('.menu-program');
+        var btnProgram2 = document.querySelector('.btn-programs2');
+
+        btnProgram.addEventListener('click', () => {
+            pmenu.style.display = 'flex';
+            btnProgram.style.display = 'none';
+            btnProgram2.style.display = 'block';
+        });
+        btnProgram2.addEventListener('click', () => {
+            pmenu.style.display = 'none';
+            btnProgram.style.display = 'block';
+            btnProgram2.style.display = 'none';
+        });
+        // testimoni.addEventListener('mouseover', ()=>{
+        //     programmenu.classList.add('show-menu');
+        // });
+        // programmenu.addEventListener('mouseleave', ()=>{
+        //     programmenu.classList.remove('show-menu');
+        // });
+
+        if (window.innerWidth < 677) {
+            $(document).ready(function () {
+                $("#carousel").owlCarousel({
+
+                    nav: true,
+                    loop: true,
+                    autoplay: true,// Show next and prev buttons
+                    slideSpeed: 300,
+                    autoplaySpeed: 400,
+
+                    items: 3,
+                    itemsDesktop: false,
+                    itemsDesktopSmall: false,
+                    itemsTablet: false,
+                    itemsMobile: false
+
+                });
+                $("#carousel2").owlCarousel({
+
+                    nav: true,
+                    loop: true,
+                    autoplay: true,// Show next and prev buttons
+                    slideSpeed: 300,
+                    autoplaySpeed: 400,
+
+                    items: 3,
+                    itemsDesktop: false,
+                    itemsDesktopSmall: false,
+                    itemsTablet: false,
+                    itemsMobile: false
+
+                });
+                $("#carousel3").owlCarousel({
+
+                    nav: true,
+                    loop: true,
+                    autoplay: true,// Show next and prev buttons
+                    slideSpeed: 300,
+                    autoplaySpeed: 400,
+
+                    items: 3,
+                    itemsDesktop: false,
+                    itemsDesktopSmall: false,
+                    itemsTablet: false,
+                    itemsMobile: false
+
+                });
+                $("#carousel4").owlCarousel({
+
+                    nav: false,
+                    loop: false,
+                    autoplay: true,// Show next and prev buttons
+                    slideSpeed: 300,
+                    autoplaySpeed: 400,
+
+                    items: 1,
+                    itemsDesktop: false,
+                    itemsDesktopSmall: false,
+                    itemsTablet: false,
+                    itemsMobile: false
+
+                });
+            });
+        }
+        if (window.innerWidth > 677) {
+            $(document).ready(function () {
+                $("#carousel").owlCarousel({
+
+                    nav: true,
+                    loop: true,
+                    autoplay: true,// Show next and prev buttons
+                    slideSpeed: 300,
+                    autoplaySpeed: 400,
+
+                    items: 5,
+                    itemsDesktop: false,
+                    itemsDesktopSmall: false,
+                    itemsTablet: false,
+                    itemsMobile: false
+
+                });
+                $("#carousel2").owlCarousel({
+
+                    nav: true,
+                    loop: true,
+                    autoplay: true,// Show next and prev buttons
+                    slideSpeed: 300,
+                    autoplaySpeed: 400,
+
+                    items: 5,
+                    itemsDesktop: false,
+                    itemsDesktopSmall: false,
+                    itemsTablet: false,
+                    itemsMobile: false
+
+                });
+                $("#carousel3").owlCarousel({
+
+                    nav: true,
+                    loop: true,
+                    autoplay: true,// Show next and prev buttons
+                    slideSpeed: 300,
+                    autoplaySpeed: 400,
+
+                    items: 5,
+                    itemsDesktop: false,
+                    itemsDesktopSmall: false,
+                    itemsTablet: false,
+                    itemsMobile: false
+
+                });
+                $("#carousel4").owlCarousel({
+
+                    nav: false,
+                    loop: false,
+                    autoplay: true,// Show next and prev buttons
+                    slideSpeed: 300,
+                    autoplaySpeed: 400,
+
+                    items: 1,
+                    itemsDesktop: false,
+                    itemsDesktopSmall: false,
+                    itemsTablet: false,
+                    itemsMobile: false
+
+                });
+            });
+        }
+
+
+
+        // $(document).ready(function () {
+        //     $(".carousel-new").owlCarousel({
+
+        //         nav: false,
+        //         loop: true,
+        //         autoplay: true,// Show next and prev buttons
+        //         slideSpeed: 300,
+        //         autoplaySpeed: 400,
+
+        //         items: 1,
+        //         itemsDesktop: false,
+        //         itemsDesktopSmall: false,
+        //         itemsTablet: false,
+        //         itemsMobile: false
+
+        //     });
+
+        // });
+
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+        let nav = document.querySelector(".nav");
+        let scrollmouse = document.querySelector(".mousescroll");
+
+        let leftbtn = document.querySelector(".leftbtn");
+        let rightbtn = document.querySelector(".rightbtn");
+
+        let upbtn = document.querySelector(".upbutton");
+
+        leftbtn.addEventListener("click", () => {
+            showPrev();
+        })
+        rightbtn.addEventListener("click", () => {
+            showNext();
+        })
+
+        // Ini Khusus Untuk Next dan back button
+
+        var visibleDiv = 0;
+
+        function showDiv() {
+            $(".carousel").hide();
+            $(".carousel:eq(" + visibleDiv + ")").show();
+        }
+        showDiv();
+
+        function showNext() {
+            if (visibleDiv == $(".carousel").length - 1) {
+                visibleDiv = 0;
+                if (visibleDiv == 0) {
+                    document.querySelector(".home").style.backgroundImage = "url(img/imgs/room.JPG)";
+                }
+            } else {
+                visibleDiv++;
+                if (visibleDiv == 1) {
+                    document.querySelector(".home").style.backgroundImage = "url(img/imgs/DSC03300.jpg)";
+                } else if (visibleDiv == 2) {
+                    document.querySelector(".home").style.backgroundImage = "url(img/imgs/DSC03352.jpg)";
+                }
+            }
+            showDiv();
+        }
+
+        function showPrev() {
+            if (visibleDiv == 0) {
+                visibleDiv = $(".carousel").length - 1;
+                // console.log(visibleDiv);
+                if (visibleDiv == 2) {
+                    document.querySelector(".home").style.backgroundImage = "url(img/imgs/DSC03352.jpg)";
+                }
+                // 
+            } else {
+                visibleDiv--;
+                // console.log(visibleDiv);
+                if (visibleDiv == 1) {
+                    document.querySelector(".home").style.backgroundImage = "url(img/imgs/DSC03300.jpg)";
+                } else {
+                    document.querySelector(".home").style.backgroundImage = "url(img/imgs/room.JPG)";
+                }
+            }
+            showDiv();
+        }
+
+
+        // Endingnya
+        window.onscroll = function () {
+            let progressHeight = (window.pageYOffset / totalHeight) * 100;
+            if (progressHeight > 5) {
+                scrollmouse.style.display = 'none';
+                nav.classList.add("openanim");
+                upbtn.style.display = "flex";
+            }
+            else if (progressHeight < 5) {
+                scrollmouse.style.display = 'flex';
+                nav.classList.remove("openanim");
+                upbtn.style.display = "none";
+            }
+        }
+
+        // Ini Arah Navbar
+        const navbar = document.querySelector(".nav");
+        tombolmenu = document.querySelectorAll(".menu");
+        overlay = document.querySelector(".tutupfungsi");
+        close = document.querySelector(".close");
+
+        tombolmenu.forEach((menuBtn) => {
+            menuBtn.addEventListener("click", () => {
+                navbar.classList.toggle("open");
+            });
+        });
+
+        overlay.addEventListener("click", () => {
+            navbar.classList.remove("open");
+        });
+
+        close.addEventListener("click", () => {
+            navbar.classList.remove("open");
+        });
+
+
+        // ini mengatur perulangan waktu
+
+        var x = setInterval(function () {
+            var now = new Date().getTime();
+
+            var seconds = Math.floor((now % (1000 * 60)) / 1000);
+
+            if (seconds % 10 == 0) {
+                showNext();
+            }
+
+
+        }, 1000);
+
+
+        let slideIndex = 1;
+
+        function showSlide(n) {
+            const slides = document.querySelectorAll('.slider img');
+            if (n > slides.length) { slideIndex = 1; }
+            if (n < 1) { slideIndex = slides.length; }
+            slides.forEach(slide => slide.style.display = "none");
+            slides[slideIndex - 1].style.display = "block";
+        }
+
+        function prevSlide() {
+            showSlide(slideIndex -= 1);
+        }
+
+        function nextSlide() {
+            showSlide(slideIndex += 1);
+        }
+
+        showSlide(slideIndex);
+
+
+    </script>
+</body>
+
+</html>
